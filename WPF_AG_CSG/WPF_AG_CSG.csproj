@@ -9,9 +9,30 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\" />
-    <Folder Include="Infrastructure\" />
-    <Folder Include="Services\" />
+    <None Remove="Resources\Assets\Chivor.jpg" />
+    <None Remove="Resources\Assets\DU_14_BUS.png" />
+    <None Remove="Resources\Assets\HidroItuango.jpg" />
+    <None Remove="Resources\Assets\San Carlos.jpg" />
+    <None Remove="Resources\Assets\Sogamoso.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Infrastructure\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="MaterialDesignColors" Version="5.2.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Assets\Chivor.jpg" />
+    <Resource Include="Resources\Assets\DU_14_BUS.png" />
+    <Resource Include="Resources\Assets\HidroItuango.jpg" />
+    <Resource Include="Resources\Assets\San Carlos.jpg" />
+    <Resource Include="Resources\Assets\Sogamoso.jpg" />
   </ItemGroup>
 
 </Project>
